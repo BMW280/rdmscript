@@ -57,8 +57,8 @@ if not loaded or not library then
 end
 
 -- Create Main Window and Tabs
-local newWindow = library:AddWindow("Sen • Paid Script", {
-    main_color = Color3.fromRGB(30, 30, 30),
+local newWindow = library:AddWindow("Fuckass Script", {
+    main_color = Color3.fromRGB(139, 0, 0),
     min_size = Vector2.new(650, 870),
     can_resize = false,
     tabs_side = true,
