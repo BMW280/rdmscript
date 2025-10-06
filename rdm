@@ -1,9 +1,4 @@
 local player = game.Players.LocalPlayer
-if not whitelist[player.UserId] then
-    player:Kick("Message From Sen(UA): Huy putangina ka magbayad kamuna sakin")
-    return
-end
-
 -- Player name/UserId whitelist for "Auto Kill All"
 local playerNameWhitelist = {}
 local userIdWhitelist = {
@@ -64,7 +59,7 @@ end
 -- Create Main Window and Tabs
 local newWindow = library:AddWindow("Sen • Paid Script", {
     main_color = Color3.fromRGB(30, 30, 30),
-    min_size = Vector2.new(500, 300),
+    min_size = Vector2.new(650, 870),
     can_resize = false,
     tabs_side = true,
 })
